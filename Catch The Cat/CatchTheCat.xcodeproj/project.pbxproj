@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D419902270CC2C200F82D0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D419901270CC2C200F82D0F /* AppDelegate.swift */; };
+		2D419904270CC2C200F82D0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D419903270CC2C200F82D0F /* SceneDelegate.swift */; };
+		2D419906270CC2C200F82D0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D419905270CC2C200F82D0F /* ViewController.swift */; };
+		2D419909270CC2C200F82D0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D419907270CC2C200F82D0F /* Main.storyboard */; };
+		2D41990C270CC2C200F82D0F /* MyFirstGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D41990A270CC2C200F82D0F /* MyFirstGame.xcdatamodeld */; };
+		2D41990E270CC2C400F82D0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D41990D270CC2C400F82D0F /* Assets.xcassets */; };
+		2D419911270CC2C400F82D0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D41990F270CC2C400F82D0F /* LaunchScreen.storyboard */; };
+		2D41991C270CC2C400F82D0F /* MyFirstGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41991B270CC2C400F82D0F /* MyFirstGameTests.swift */; };
+		2D419927270CC2C400F82D0F /* MyFirstGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D419926270CC2C400F82D0F /* MyFirstGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D419918270CC2C400F82D0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4198F6270CC2C200F82D0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4198FD270CC2C200F82D0F;
+			remoteInfo = MyFirstGame;
+		};
+		2D419923270CC2C400F82D0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4198F6270CC2C200F82D0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4198FD270CC2C200F82D0F;
+			remoteInfo = MyFirstGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4198FE270CC2C200F82D0F /* CatchTheCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D419901270CC2C200F82D0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D419903270CC2C200F82D0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D419905270CC2C200F82D0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D419908270CC2C200F82D0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D41990B270CC2C200F82D0F /* MyFirstGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFirstGame.xcdatamodel; sourceTree = "<group>"; };
+		2D41990D270CC2C400F82D0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D419910270CC2C400F82D0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D419912270CC2C400F82D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D419917270CC2C400F82D0F /* CatchTheCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D41991B270CC2C400F82D0F /* MyFirstGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstGameTests.swift; sourceTree = "<group>"; };
+		2D41991D270CC2C400F82D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D419922270CC2C400F82D0F /* CatchTheCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D419926270CC2C400F82D0F /* MyFirstGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstGameUITests.swift; sourceTree = "<group>"; };
+		2D419928270CC2C400F82D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4198FB270CC2C200F82D0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D419914270CC2C400F82D0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D41991F270CC2C400F82D0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4198F5270CC2C200F82D0F = {
+			isa = PBXGroup;
+			children = (
+				2D419900270CC2C200F82D0F /* MyFirstGame */,
+				2D41991A270CC2C400F82D0F /* MyFirstGameTests */,
+				2D419925270CC2C400F82D0F /* MyFirstGameUITests */,
+				2D4198FF270CC2C200F82D0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4198FF270CC2C200F82D0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4198FE270CC2C200F82D0F /* CatchTheCat.app */,
+				2D419917270CC2C400F82D0F /* CatchTheCatTests.xctest */,
+				2D419922270CC2C400F82D0F /* CatchTheCatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D419900270CC2C200F82D0F /* MyFirstGame */ = {
+			isa = PBXGroup;
+			children = (
+				2D419901270CC2C200F82D0F /* AppDelegate.swift */,
+				2D419903270CC2C200F82D0F /* SceneDelegate.swift */,
+				2D419905270CC2C200F82D0F /* ViewController.swift */,
+				2D419907270CC2C200F82D0F /* Main.storyboard */,
+				2D41990D270CC2C400F82D0F /* Assets.xcassets */,
+				2D41990F270CC2C400F82D0F /* LaunchScreen.storyboard */,
+				2D419912270CC2C400F82D0F /* Info.plist */,
+				2D41990A270CC2C200F82D0F /* MyFirstGame.xcdatamodeld */,
+			);
+			path = MyFirstGame;
+			sourceTree = "<group>";
+		};
+		2D41991A270CC2C400F82D0F /* MyFirstGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D41991B270CC2C400F82D0F /* MyFirstGameTests.swift */,
+				2D41991D270CC2C400F82D0F /* Info.plist */,
+			);
+			path = MyFirstGameTests;
+			sourceTree = "<group>";
+		};
+		2D419925270CC2C400F82D0F /* MyFirstGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D419926270CC2C400F82D0F /* MyFirstGameUITests.swift */,
+				2D419928270CC2C400F82D0F /* Info.plist */,
+			);
+			path = MyFirstGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4198FD270CC2C200F82D0F /* CatchTheCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D41992B270CC2C400F82D0F /* Build configuration list for PBXNativeTarget "CatchTheCat" */;
+			buildPhases = (
+				2D4198FA270CC2C200F82D0F /* Sources */,
+				2D4198FB270CC2C200F82D0F /* Frameworks */,
+				2D4198FC270CC2C200F82D0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheCat;
+			productName = MyFirstGame;
+			productReference = 2D4198FE270CC2C200F82D0F /* CatchTheCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D419916270CC2C400F82D0F /* CatchTheCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D41992E270CC2C400F82D0F /* Build configuration list for PBXNativeTarget "CatchTheCatTests" */;
+			buildPhases = (
+				2D419913270CC2C400F82D0F /* Sources */,
+				2D419914270CC2C400F82D0F /* Frameworks */,
+				2D419915270CC2C400F82D0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D419919270CC2C400F82D0F /* PBXTargetDependency */,
+			);
+			name = CatchTheCatTests;
+			productName = MyFirstGameTests;
+			productReference = 2D419917270CC2C400F82D0F /* CatchTheCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D419921270CC2C400F82D0F /* CatchTheCatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D419931270CC2C400F82D0F /* Build configuration list for PBXNativeTarget "CatchTheCatUITests" */;
+			buildPhases = (
+				2D41991E270CC2C400F82D0F /* Sources */,
+				2D41991F270CC2C400F82D0F /* Frameworks */,
+				2D419920270CC2C400F82D0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D419924270CC2C400F82D0F /* PBXTargetDependency */,
+			);
+			name = CatchTheCatUITests;
+			productName = MyFirstGameUITests;
+			productReference = 2D419922270CC2C400F82D0F /* CatchTheCatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4198F6270CC2C200F82D0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2D4198FD270CC2C200F82D0F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2D419916270CC2C400F82D0F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2D4198FD270CC2C200F82D0F;
+					};
+					2D419921270CC2C400F82D0F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2D4198FD270CC2C200F82D0F;
+					};
+				};
+			};
+			buildConfigurationList = 2D4198F9270CC2C200F82D0F /* Build configuration list for PBXProject "CatchTheCat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D4198F5270CC2C200F82D0F;
+			productRefGroup = 2D4198FF270CC2C200F82D0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4198FD270CC2C200F82D0F /* CatchTheCat */,
+				2D419916270CC2C400F82D0F /* CatchTheCatTests */,
+				2D419921270CC2C400F82D0F /* CatchTheCatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4198FC270CC2C200F82D0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D419911270CC2C400F82D0F /* LaunchScreen.storyboard in Resources */,
+				2D41990E270CC2C400F82D0F /* Assets.xcassets in Resources */,
+				2D419909270CC2C200F82D0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D419915270CC2C400F82D0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D419920270CC2C400F82D0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4198FA270CC2C200F82D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D41990C270CC2C200F82D0F /* MyFirstGame.xcdatamodeld in Sources */,
+				2D419906270CC2C200F82D0F /* ViewController.swift in Sources */,
+				2D419902270CC2C200F82D0F /* AppDelegate.swift in Sources */,
+				2D419904270CC2C200F82D0F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D419913270CC2C400F82D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D41991C270CC2C400F82D0F /* MyFirstGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D41991E270CC2C400F82D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D419927270CC2C400F82D0F /* MyFirstGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D419919270CC2C400F82D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4198FD270CC2C200F82D0F /* CatchTheCat */;
+			targetProxy = 2D419918270CC2C400F82D0F /* PBXContainerItemProxy */;
+		};
+		2D419924270CC2C400F82D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4198FD270CC2C200F82D0F /* CatchTheCat */;
+			targetProxy = 2D419923270CC2C400F82D0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D419907270CC2C200F82D0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D419908270CC2C200F82D0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D41990F270CC2C400F82D0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D419910270CC2C400F82D0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D419929270CC2C400F82D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D41992A270CC2C400F82D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D41992C270CC2C400F82D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4T646HAV4;
+				INFOPLIST_FILE = MyFirstGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrebitkay.MyFirstGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D41992D270CC2C400F82D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4T646HAV4;
+				INFOPLIST_FILE = MyFirstGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrebitkay.MyFirstGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D41992F270CC2C400F82D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4T646HAV4;
+				INFOPLIST_FILE = MyFirstGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrebitkay.MyFirstGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheCat.app/CatchTheCat";
+			};
+			name = Debug;
+		};
+		2D419930270CC2C400F82D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4T646HAV4;
+				INFOPLIST_FILE = MyFirstGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrebitkay.MyFirstGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheCat.app/CatchTheCat";
+			};
+			name = Release;
+		};
+		2D419932270CC2C400F82D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4T646HAV4;
+				INFOPLIST_FILE = MyFirstGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrebitkay.MyFirstGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFirstGame;
+			};
+			name = Debug;
+		};
+		2D419933270CC2C400F82D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4T646HAV4;
+				INFOPLIST_FILE = MyFirstGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrebitkay.MyFirstGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFirstGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4198F9270CC2C200F82D0F /* Build configuration list for PBXProject "CatchTheCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D419929270CC2C400F82D0F /* Debug */,
+				2D41992A270CC2C400F82D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D41992B270CC2C400F82D0F /* Build configuration list for PBXNativeTarget "CatchTheCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D41992C270CC2C400F82D0F /* Debug */,
+				2D41992D270CC2C400F82D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D41992E270CC2C400F82D0F /* Build configuration list for PBXNativeTarget "CatchTheCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D41992F270CC2C400F82D0F /* Debug */,
+				2D419930270CC2C400F82D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D419931270CC2C400F82D0F /* Build configuration list for PBXNativeTarget "CatchTheCatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D419932270CC2C400F82D0F /* Debug */,
+				2D419933270CC2C400F82D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D41990A270CC2C200F82D0F /* MyFirstGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D41990B270CC2C200F82D0F /* MyFirstGame.xcdatamodel */,
+			);
+			currentVersion = 2D41990B270CC2C200F82D0F /* MyFirstGame.xcdatamodel */;
+			path = MyFirstGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D4198F6270CC2C200F82D0F /* Project object */;
+}
